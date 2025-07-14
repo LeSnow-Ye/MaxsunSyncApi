@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>MaxsunSyncApi</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>LeSnow-Ye</Authors>
+    <Company>LeSnow</Company>
+    <Description>API for controlling Maxsun motherboard RGB devices
+      by interacting with MaxsunSync service.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/LeSnow-Ye/MaxsunSyncApi</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/LeSnow-Ye/MaxsunSyncApi</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="9.0.7" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>
