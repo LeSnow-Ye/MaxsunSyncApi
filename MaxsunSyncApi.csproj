@@ -4,7 +4,7 @@
     <LangVersion>10.0</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageId>MaxsunSyncApi</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>LeSnow-Ye</Authors>
     <Company>LeSnow</Company>
     <Description>API for controlling Maxsun motherboard RGB devices

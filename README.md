@@ -2,17 +2,11 @@
 
 A .NET API for interacting with MaxsunSync service to control RGB lighting on Maxsun devices.
 
-## Features
+[![NuGet version](https://img.shields.io/nuget/v/MaxsunSyncApi.svg?style=flat-square)](https://www.nuget.org/packages/MaxsunSyncApi/)
 
-- Scan for connected Maxsun RGB devices
-- Apply various lighting effects (Single color, Breathing, Color Cycle, Rainbow, CPU-based, Music-reactive)
-- Manage device synchronization status
-- Control RGB lighting programmatically
+## ⚠️Requirements⚠️
 
-## Requirements
-
-- Windows OS (Windows 10 version 1809 or later)
-- MaxsunSync software must be installed
+- [MAXSUN Sync](https://www.maxsun.com/blogs/maxsun-motherboard/revolutionize-your-gaming-experience-with-maxsun-syncs-advanced-rgb-control) must be installed. (Tested on Ver. 1.0.39)
 - CppWindowsService must be running
 - Administrator privileges required
 
